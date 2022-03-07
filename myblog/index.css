@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 400px;
+  margin: 32px auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border: medium solid black;
+  margin: 3px;
+  display: flex;
+  padding: 3px;
+  justify-content: space-between;
+
+}
+
+.btns {
+  display: flex;
+  margin-top: 10px;
+}
+
+.create {
+  background-color: whitesmoke;
+}
+
+.dele {
+  background-color: red;
+}
+
+.edit {
+  background-color: greenyellow;
+}
